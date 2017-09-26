@@ -1,0 +1,112 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  padding: auto 10px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav ul li {
+  display: inline-block;
+  text-decoration: underline;
+  text-align: right;
+}
+
+li a {
+  color: seashell;
+}
+
+.container {
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+}
+
+.mission {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+}
+
+.text {
+  background-color: black;
+  width: 1200px;
+}
+
+.month {
+  width: 1000px;
+  justify-content: center;
+  align-content: center;
+}
+
+.images {
+  width: 1000px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.addresses {
+  width: 300px;
+  margin: 15px 20px;
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 1;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.copy {
+  padding-left: 20px;
+  text-align: left;
+}
